@@ -1,0 +1,62 @@
+PODS:
+  - app_settings (5.1.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - package_info_plus (0.4.5):
+    - Flutter
+  - permission_handler_apple (9.3.0):
+    - Flutter
+  - Protobuf (3.29.1)
+  - reactive_ble_mobile (0.0.1):
+    - Flutter
+    - FlutterMacOS
+    - Protobuf (~> 3.5)
+    - SwiftProtobuf (~> 1.0)
+  - SwiftProtobuf (1.28.2)
+  - wakelock_plus (0.0.1):
+    - Flutter
+  - WechatOpenSDK-XCFramework (2.0.4)
+
+DEPENDENCIES:
+  - app_settings (from `.symlinks/plugins/app_settings/ios`)
+  - Flutter (from `Flutter`)
+  - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - reactive_ble_mobile (from `.symlinks/plugins/reactive_ble_mobile/darwin`)
+  - wakelock_plus (from `.symlinks/plugins/wakelock_plus/ios`)
+  - WechatOpenSDK-XCFramework
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Protobuf
+    - SwiftProtobuf
+    - WechatOpenSDK-XCFramework
+
+EXTERNAL SOURCES:
+  app_settings:
+    :path: ".symlinks/plugins/app_settings/ios"
+  Flutter:
+    :path: Flutter
+  package_info_plus:
+    :path: ".symlinks/plugins/package_info_plus/ios"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  reactive_ble_mobile:
+    :path: ".symlinks/plugins/reactive_ble_mobile/darwin"
+  wakelock_plus:
+    :path: ".symlinks/plugins/wakelock_plus/ios"
+
+SPEC CHECKSUMS:
+  app_settings: 017320c6a680cdc94c799949d95b84cb69389ebc
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  package_info_plus: c0502532a26c7662a62a356cebe2692ec5fe4ec4
+  permission_handler_apple: 9878588469a2b0d0fc1e048d9f43605f92e6cec2
+  Protobuf: 0c5a9e64f38aed73b5d1ff88a20112ce195cf909
+  reactive_ble_mobile: 856183aeda09f2a676bbaecbea8915c3cb1d33df
+  SwiftProtobuf: 4dbaffec76a39a8dc5da23b40af1a5dc01a4c02d
+  wakelock_plus: 373cfe59b235a6dd5837d0fb88791d2f13a90d56
+  WechatOpenSDK-XCFramework: 36fb2bea0754266c17184adf4963d7e6ff98b69f
+
+PODFILE CHECKSUM: 18fb96e0e7bd92be8d7423adf43fd8e317ad0531
+
+COCOAPODS: 1.15.2
