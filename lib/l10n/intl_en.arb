@@ -1,0 +1,18 @@
+{
+  "ear_temp": "Ear Temp",
+  "body_temp": "Body Temp",
+  "ambient_temp": "Room Temp",
+  "object_temp": "Object Temp",
+  "status_one": "Status S-1",
+  "status_two": "Status S-2",
+  "status_three": "Status S-3",
+  "thirty_seven_wait": "Wait for 37°C calibration",
+  "thirty_seven_complete": "Calibrated at 37°C",
+  "forty_two_wait": "Wait for 42°C calibration",
+  "forty_two_complete": "Calibrated at 42°C",
+  "calibration_complete": "Calibration Complete",
+  "temp_calibration": "Temp Calibration",
+  "ear_temp_mode": "Ear Temp Mode",
+  "object_temp_mode": "Object Temp Mode",
+  "exit_app": "Press again to exit the APP."
+}

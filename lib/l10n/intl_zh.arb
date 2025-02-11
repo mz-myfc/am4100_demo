@@ -1,0 +1,18 @@
+{
+  "ear_temp": "耳温",
+  "body_temp": "体温",
+  "ambient_temp": "环境温度",
+  "object_temp": "物体温度",
+  "status_one": "模块准备校正 S-1",
+  "status_two": "模块准备校正 S-2",
+  "status_three": "模块准备校正 S-3",
+  "thirty_seven_wait": "等待37℃校准",
+  "thirty_seven_complete": "37℃已校准",
+  "forty_two_wait": "等待42℃校准",
+  "forty_two_complete": "42℃已校准",
+  "calibration_complete": "校准完成，设备将自动关机",
+  "temp_calibration": "温度校准",
+  "ear_temp_mode": "耳温模式",
+  "object_temp_mode": "物温模式",
+  "exit_app": "再按一次退出APP。"
+}
