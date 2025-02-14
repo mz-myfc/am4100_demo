@@ -11,6 +11,7 @@ import 'utils/ble/permission.dart';
 import 'utils/helper.dart';
 import 'utils/notice.dart';
 import 'utils/pop/pop.dart';
+import 'utils/wave/wave_view.dart';
 
 /*
  * @description Home Page
@@ -94,7 +95,7 @@ class _HomePageState extends State<HomePage> {
                     _Item(title: S.current.status_two, value: helper.s2),
                     const SizedBox(height: 15),
                     _Item(title: S.current.status_three, value: helper.s3),
-                    const SizedBox(height: 50),
+                    const SizedBox(height: 10),
                     Flex(
                       direction: Axis.horizontal,
                       children: [
@@ -120,8 +121,13 @@ class _HomePageState extends State<HomePage> {
                         ),
                       ],
                     ),
+                    const WaveView(),
                     const Spacer(),
-                    Text('v1.0', style: _style(Colors.grey)),
+                    Text(
+                      'v1.0\nShanghai Berry Electronic Tech Co., Ltd.',
+                      style: _style(color: Colors.grey, fontSize: 13),
+                      textAlign: TextAlign.center,
+                    ),
                   ],
                 ),
               ),
@@ -184,7 +190,7 @@ class _Btn extends StatelessWidget {
           onTap: onTap,
           child: Column(
             children: [
-              Text(data[1] ? '▼' : '', style: _style(Colors.red)),
+              Text(data[1] ? '▼' : '', style: _style(color: Colors.red)),
               Container(
                 alignment: Alignment.center,
                 height: 45,
@@ -199,7 +205,7 @@ class _Btn extends StatelessWidget {
                 ),
                 child: Text(
                   title,
-                  style: _style(Colors.white),
+                  style: _style(color: Colors.white),
                   textAlign: TextAlign.center,
                 ),
               ),
@@ -209,5 +215,5 @@ class _Btn extends StatelessWidget {
       );
 }
 
-TextStyle _style([Color? c]) =>
-    TextStyle(fontSize: 15, color: c ?? Colors.black);
+TextStyle _style({Color? color, double? fontSize}) =>
+    TextStyle(fontSize: fontSize ?? 15, color: color ?? Colors.black);
