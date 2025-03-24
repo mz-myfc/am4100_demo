@@ -209,6 +209,166 @@ class S {
       args: [],
     );
   }
+
+  /// `Tips`
+  String get tips {
+    return Intl.message(
+      'Tips',
+      name: 'tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cancel`
+  String get cancel {
+    return Intl.message(
+      'Cancel',
+      name: 'cancel',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirm`
+  String get confirm {
+    return Intl.message(
+      'Confirm',
+      name: 'confirm',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please turn on location`
+  String get location_msg {
+    return Intl.message(
+      'Please turn on location',
+      name: 'location_msg',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please turn on APP location`
+  String get app_location_msg {
+    return Intl.message(
+      'Please turn on APP location',
+      name: 'app_location_msg',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please turn on bluetooth`
+  String get bluetooth_msg {
+    return Intl.message(
+      'Please turn on bluetooth',
+      name: 'bluetooth_msg',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Search`
+  String get search {
+    return Intl.message(
+      'Search',
+      name: 'search',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Connect`
+  String get connect {
+    return Intl.message(
+      'Connect',
+      name: 'connect',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Disconnect`
+  String get disconnect {
+    return Intl.message(
+      'Disconnect',
+      name: 'disconnect',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Device`
+  String get device {
+    return Intl.message(
+      'Device',
+      name: 'device',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Device Name: `
+  String get device_name {
+    return Intl.message(
+      'Device Name: ',
+      name: 'device_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `MAC: `
+  String get device_mac {
+    return Intl.message(
+      'MAC: ',
+      name: 'device_mac',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please check the bluetooth status`
+  String get bluetooth_status {
+    return Intl.message(
+      'Please check the bluetooth status',
+      name: 'bluetooth_status',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Scanning...`
+  String get scaning {
+    return Intl.message(
+      'Scanning...',
+      name: 'scaning',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Device List`
+  String get device_list {
+    return Intl.message(
+      'Device List',
+      name: 'device_list',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Connecting...`
+  String get connecting {
+    return Intl.message(
+      'Connecting...',
+      name: 'connecting',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

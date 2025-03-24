@@ -14,5 +14,21 @@
   "temp_calibration": "Temp Calibration",
   "ear_temp_mode": "Ear Temp Mode",
   "object_temp_mode": "Object Temp Mode",
-  "exit_app": "Press again to exit the APP."
+  "exit_app": "Press again to exit the APP.",
+  "tips": "Tips",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "location_msg": "Please turn on location",
+  "app_location_msg": "Please turn on APP location",
+  "bluetooth_msg": "Please turn on bluetooth",
+  "search": "Search",
+  "connect": "Connect",
+  "disconnect": "Disconnect",
+  "device": "Device",
+  "device_name": "Device Name: ",
+  "device_mac": "MAC: ",
+  "bluetooth_status": "Please check the bluetooth status",
+  "scaning": "Scanning...",
+  "device_list": "Device List",
+  "connecting": "Connecting..."
 }

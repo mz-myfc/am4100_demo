@@ -14,5 +14,21 @@
   "temp_calibration": "温度校准",
   "ear_temp_mode": "耳温模式",
   "object_temp_mode": "物温模式",
-  "exit_app": "再按一次退出APP。"
+  "exit_app": "再按一次退出APP。",
+  "tips": "提示",
+  "cancel": "取消",
+  "confirm": "确认",
+  "location_msg": "请打开定位",
+  "app_location_msg": "请打开APP位置信息",
+  "bluetooth_msg": "请打开蓝牙",
+  "search": "搜索",
+  "connect": "连接",
+  "disconnect": "断开",
+  "device": "设备",
+  "device_name": "设备名：",
+  "device_mac": "MAC：",
+  "bluetooth_status": "请检查蓝牙状态",
+  "scaning": "扫描中...",
+  "device_list": "设备列表",
+  "connecting": "连接中..."
 }

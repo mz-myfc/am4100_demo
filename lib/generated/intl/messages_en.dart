@@ -23,9 +23,24 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "ambient_temp": MessageLookupByLibrary.simpleMessage("Room Temp"),
+        "app_location_msg":
+            MessageLookupByLibrary.simpleMessage("Please turn on APP location"),
+        "bluetooth_msg":
+            MessageLookupByLibrary.simpleMessage("Please turn on bluetooth"),
+        "bluetooth_status": MessageLookupByLibrary.simpleMessage(
+            "Please check the bluetooth status"),
         "body_temp": MessageLookupByLibrary.simpleMessage("Body Temp"),
         "calibration_complete":
             MessageLookupByLibrary.simpleMessage("Calibration Complete"),
+        "cancel": MessageLookupByLibrary.simpleMessage("Cancel"),
+        "confirm": MessageLookupByLibrary.simpleMessage("Confirm"),
+        "connect": MessageLookupByLibrary.simpleMessage("Connect"),
+        "connecting": MessageLookupByLibrary.simpleMessage("Connecting..."),
+        "device": MessageLookupByLibrary.simpleMessage("Device"),
+        "device_list": MessageLookupByLibrary.simpleMessage("Device List"),
+        "device_mac": MessageLookupByLibrary.simpleMessage("MAC: "),
+        "device_name": MessageLookupByLibrary.simpleMessage("Device Name: "),
+        "disconnect": MessageLookupByLibrary.simpleMessage("Disconnect"),
         "ear_temp": MessageLookupByLibrary.simpleMessage("Ear Temp"),
         "ear_temp_mode": MessageLookupByLibrary.simpleMessage("Ear Temp Mode"),
         "exit_app": MessageLookupByLibrary.simpleMessage(
@@ -34,9 +49,13 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Calibrated at 42°C"),
         "forty_two_wait":
             MessageLookupByLibrary.simpleMessage("Wait for 42°C calibration"),
+        "location_msg":
+            MessageLookupByLibrary.simpleMessage("Please turn on location"),
         "object_temp": MessageLookupByLibrary.simpleMessage("Object Temp"),
         "object_temp_mode":
             MessageLookupByLibrary.simpleMessage("Object Temp Mode"),
+        "scaning": MessageLookupByLibrary.simpleMessage("Scanning..."),
+        "search": MessageLookupByLibrary.simpleMessage("Search"),
         "status_one": MessageLookupByLibrary.simpleMessage("Status S-1"),
         "status_three": MessageLookupByLibrary.simpleMessage("Status S-3"),
         "status_two": MessageLookupByLibrary.simpleMessage("Status S-2"),
@@ -45,6 +64,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "thirty_seven_complete":
             MessageLookupByLibrary.simpleMessage("Calibrated at 37°C"),
         "thirty_seven_wait":
-            MessageLookupByLibrary.simpleMessage("Wait for 37°C calibration")
+            MessageLookupByLibrary.simpleMessage("Wait for 37°C calibration"),
+        "tips": MessageLookupByLibrary.simpleMessage("Tips")
       };
 }
